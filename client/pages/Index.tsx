@@ -29,10 +29,15 @@ export default function Index() {
                 </p>
               </div>
               <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Wear Your <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">College Pride</span>
+                Wear Your{" "}
+                <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                  College Pride
+                </span>
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                Discover exclusive college hoodies, t-shirts, and accessories designed by students, for students. Limited editions drop weekly.
+                Discover exclusive college hoodies, t-shirts, and accessories
+                designed by students, for students. Limited editions drop
+                weekly.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -76,7 +81,9 @@ export default function Index() {
 
               {/* Floating Cards */}
               <div className="absolute -bottom-8 -left-8 bg-white p-4 rounded-xl shadow-lg border border-gray-200 max-w-xs">
-                <p className="text-sm font-semibold text-gray-900">Limited Edition Drop</p>
+                <p className="text-sm font-semibold text-gray-900">
+                  Limited Edition Drop
+                </p>
                 <p className="text-xs text-gray-500">New designs every week</p>
               </div>
               <div className="absolute -top-8 -right-8 bg-white p-4 rounded-xl shadow-lg border border-gray-200">
@@ -87,7 +94,9 @@ export default function Index() {
                   <Star className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                   <Star className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                 </div>
-                <p className="text-xs text-gray-500 mt-1">5/5 from 500+ reviews</p>
+                <p className="text-xs text-gray-500 mt-1">
+                  5/5 from 500+ reviews
+                </p>
               </div>
             </div>
           </div>
@@ -98,7 +107,9 @@ export default function Index() {
           <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
             <div className="bg-white rounded-2xl max-w-md w-full p-8 animate-slide-up">
               <h2 className="text-2xl font-bold text-gray-900 mb-2">Sign In</h2>
-              <p className="text-gray-600 mb-6">Enter your college ID to access exclusive merchandise</p>
+              <p className="text-gray-600 mb-6">
+                Enter your college ID to access exclusive merchandise
+              </p>
 
               <div className="space-y-4">
                 <div>
@@ -150,7 +161,8 @@ export default function Index() {
               Featured Products
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Handpicked essentials for every college student. From classic hoodies to exclusive designs.
+              Handpicked essentials for every college student. From classic
+              hoodies to exclusive designs.
             </p>
           </div>
 
@@ -322,16 +334,21 @@ export default function Index() {
               </div>
               <div className="p-8">
                 <div className="inline-block mb-4 px-3 py-1 bg-indigo-100 rounded-full">
-                  <p className="text-xs font-bold text-indigo-700">DROPPING MONDAY</p>
+                  <p className="text-xs font-bold text-indigo-700">
+                    DROPPING MONDAY
+                  </p>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-3">
                   Retro Campus Collection
                 </h3>
                 <p className="text-gray-600 mb-6">
-                  Vintage-inspired designs celebrating campus life. Only 200 pieces available. First come, first served!
+                  Vintage-inspired designs celebrating campus life. Only 200
+                  pieces available. First come, first served!
                 </p>
                 <div className="flex items-center gap-4">
-                  <div className="text-3xl font-bold text-indigo-600">$54.99</div>
+                  <div className="text-3xl font-bold text-indigo-600">
+                    $54.99
+                  </div>
                   <button className="flex-1 px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg hover:bg-indigo-700 transition-all">
                     Notify Me
                   </button>
@@ -346,13 +363,16 @@ export default function Index() {
               </div>
               <div className="p-8">
                 <div className="inline-block mb-4 px-3 py-1 bg-pink-100 rounded-full">
-                  <p className="text-xs font-bold text-pink-700">AVAILABLE NOW</p>
+                  <p className="text-xs font-bold text-pink-700">
+                    AVAILABLE NOW
+                  </p>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-3">
                   Student Stories Collection
                 </h3>
                 <p className="text-gray-600 mb-6">
-                  Featuring designs from student artists. Each purchase supports the artist community. Limited stock!
+                  Featuring designs from student artists. Each purchase supports
+                  the artist community. Limited stock!
                 </p>
                 <div className="flex items-center gap-4">
                   <div className="text-3xl font-bold text-pink-600">$39.99</div>
@@ -380,28 +400,40 @@ export default function Index() {
                   About CollegeHub
                 </h2>
                 <p className="text-xl text-gray-600 leading-relaxed mb-4">
-                  We started CollegeHub with a simple mission: provide students with access to high-quality, authentic college merchandise without the markup.
+                  We started CollegeHub with a simple mission: provide students
+                  with access to high-quality, authentic college merchandise
+                  without the markup.
                 </p>
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  Every design is created by our community of talented student artists, and a portion of every sale goes directly back to support college initiatives.
+                  Every design is created by our community of talented student
+                  artists, and a portion of every sale goes directly back to
+                  support college initiatives.
                 </p>
               </div>
 
               <div className="grid grid-cols-2 gap-6">
                 <div className="bg-blue-50 rounded-xl p-6">
-                  <div className="text-4xl font-bold text-blue-600 mb-2">2000+</div>
+                  <div className="text-4xl font-bold text-blue-600 mb-2">
+                    2000+
+                  </div>
                   <p className="text-gray-700 font-semibold">Happy Students</p>
                 </div>
                 <div className="bg-purple-50 rounded-xl p-6">
-                  <div className="text-4xl font-bold text-purple-600 mb-2">150+</div>
+                  <div className="text-4xl font-bold text-purple-600 mb-2">
+                    150+
+                  </div>
                   <p className="text-gray-700 font-semibold">Unique Designs</p>
                 </div>
                 <div className="bg-green-50 rounded-xl p-6">
-                  <div className="text-4xl font-bold text-green-600 mb-2">$50K+</div>
+                  <div className="text-4xl font-bold text-green-600 mb-2">
+                    $50K+
+                  </div>
                   <p className="text-gray-700 font-semibold">Donated Back</p>
                 </div>
                 <div className="bg-orange-50 rounded-xl p-6">
-                  <div className="text-4xl font-bold text-orange-600 mb-2">4.9★</div>
+                  <div className="text-4xl font-bold text-orange-600 mb-2">
+                    4.9★
+                  </div>
                   <p className="text-gray-700 font-semibold">Rating</p>
                 </div>
               </div>
@@ -415,21 +447,29 @@ export default function Index() {
                   Support Our College
                 </h3>
                 <p className="text-gray-700 text-lg mb-6 leading-relaxed">
-                  Our mission extends beyond merchandise. We're committed to making a positive impact on campus through scholarships, wellness programs, and student initiatives.
+                  Our mission extends beyond merchandise. We're committed to
+                  making a positive impact on campus through scholarships,
+                  wellness programs, and student initiatives.
                 </p>
 
                 <div className="space-y-3 mb-8">
                   <div className="flex items-center gap-3">
                     <Award className="w-5 h-5 text-red-600" />
-                    <span className="text-gray-700">Scholarship funds for deserving students</span>
+                    <span className="text-gray-700">
+                      Scholarship funds for deserving students
+                    </span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Users className="w-5 h-5 text-red-600" />
-                    <span className="text-gray-700">Mental health & wellness programs</span>
+                    <span className="text-gray-700">
+                      Mental health & wellness programs
+                    </span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Zap className="w-5 h-5 text-red-600" />
-                    <span className="text-gray-700">Student club funding & events</span>
+                    <span className="text-gray-700">
+                      Student club funding & events
+                    </span>
                   </div>
                 </div>
 
@@ -455,7 +495,8 @@ export default function Index() {
             Ready to Represent Your College?
           </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Join thousands of students already rockin' exclusive college merch. New designs every week!
+            Join thousands of students already rockin' exclusive college merch.
+            New designs every week!
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

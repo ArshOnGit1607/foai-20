@@ -167,12 +167,18 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <h3 className="font-bold mb-4 text-white">Support</h3>
               <ul className="space-y-2 text-sm text-gray-400">
                 <li>
-                  <a href="mailto:support@collegehub.com" className="hover:text-white transition">
+                  <a
+                    href="mailto:support@collegehub.com"
+                    className="hover:text-white transition"
+                  >
                     support@collegehub.com
                   </a>
                 </li>
                 <li>
-                  <a href="tel:+1234567890" className="hover:text-white transition">
+                  <a
+                    href="tel:+1234567890"
+                    className="hover:text-white transition"
+                  >
                     +1 (234) 567-890
                   </a>
                 </li>
@@ -213,7 +219,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 </a>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
-                <p className="text-sm font-semibold mb-2">Support Our College</p>
+                <p className="text-sm font-semibold mb-2">
+                  Support Our College
+                </p>
                 <button className="w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-2 rounded transition">
                   ❤️ Donate Now
                 </button>

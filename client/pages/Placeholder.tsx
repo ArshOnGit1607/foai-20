@@ -7,7 +7,11 @@ interface PlaceholderProps {
   description: string;
 }
 
-export default function Placeholder({ title, icon, description }: PlaceholderProps) {
+export default function Placeholder({
+  title,
+  icon,
+  description,
+}: PlaceholderProps) {
   return (
     <Layout>
       <div className="min-h-screen flex items-center justify-center px-4">
@@ -21,7 +25,8 @@ export default function Placeholder({ title, icon, description }: PlaceholderPro
               <strong>Continue building this page in the chat.</strong>
             </p>
             <p className="text-xs text-gray-600">
-              Just describe what you'd like to see here - features, layout, content - and we'll create it for you!
+              Just describe what you'd like to see here - features, layout,
+              content - and we'll create it for you!
             </p>
           </div>
 
